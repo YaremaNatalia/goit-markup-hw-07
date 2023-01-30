@@ -1,6 +1,32 @@
 @media screen and (min-width: 768px) {
   .container {
-    width: 766px;
+    max-width: 768px;
+  }
+  /* -----------HERO----------- */
+.hero.section {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-bg-tablet.jpg);
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero.section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-tablet@2x.jpg);
+  }
+}
+
+  .hero-title {
+    max-width: 496px;
+    font-size: 56px;
+    font-weight: 700;
   }
 
   /* -----------PREFERENCES----------- */
@@ -34,4 +60,22 @@
   .team-list > .item {
     width: calc((100% - var(--card-set-gap)) / 2);
   }
+  /* ----------CUSTOMERS--------- */
+
+  .customers > .container {
+    width: 582px;
+  }
+
+  .customers-list {
+    row-gap: 72px;
+    column-gap: var(--card-set-gap);
+  }
+
+  .customers-item {
+    width: calc((100% - 2 * var(--card-set-gap)) / 3);
+  
+  }
+
+  /* -----------FOOTER----------- */
+
 }

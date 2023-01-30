@@ -1,8 +1,28 @@
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1158px;
+    max-width: 1158px;
   }
 
+  /* -----------HERO----------- */
+.hero.section {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-bg-desctop.jpg);
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero.section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-desctop@2x.jpg);
+  }
+}
   /* -----------PREFERENCES----------- */
   .preferences-list {
     display: flex;
@@ -40,4 +60,32 @@
   .team-list > .item {
     width: calc((100% - 3 * var(--card-set-gap)) / 4);
   }
+
+/* -----------WORK----------- */
+.work {
+  display: block;
+  
+}
+/* ----------CUSTOMERS--------- */
+
+.customers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.customers > .container {
+    width: 1158px;
+  }
+
+  .customers-list {
+    gap: var(--card-set-gap);
+  }
+
+  .customers-item {
+   width: calc((100% - 5 * var(--card-set-gap)) / 6);
+  
+  }
+
+  /* -----------FOOTER----------- */
+
 }
