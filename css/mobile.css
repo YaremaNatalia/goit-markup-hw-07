@@ -12,6 +12,10 @@
   .team.section {
   padding-bottom: 128px;
   }
+
+  .team > .container {
+    width: 294px;
+  }
 }
 
 /* .header-container {
