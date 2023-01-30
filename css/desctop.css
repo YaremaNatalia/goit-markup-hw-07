@@ -1,0 +1,40 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+  }
+
+  /* -----------PREFERENCES----------- */
+  .preferences-list {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: var(--card-set-gap);
+  }
+
+  .preferences-item {
+    width: calc((100% - 3 * var(--card-set-gap)) / 4);
+  }
+
+  .preferences-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .preferences-wrap {
+    display: block;
+  }
+
+  /* -----------TEAM----------- */
+  .team.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .team-list {
+    gap: 24px;
+  }
+  .team-list > .item {
+    width: calc((100% - 3 * var(--card-set-gap)) / 4);
+  }
+}

@@ -1,0 +1,34 @@
+@media screen and (min-width: 768px) {
+  .container {
+    width: 766px;
+  }
+
+  /* -----------PREFERENCES----------- */
+  .preferences-list {
+    row-gap: 72px;
+    column-gap: var(--card-set-gap);
+  }
+
+  .preferences-item {
+    width: calc((100% - var(--card-set-gap)) / 2);
+  }
+
+  .preferences-subtitle {
+    text-align: start;
+  }
+
+  /* -----------TEAM----------- */
+  .team.section {
+    padding-bottom: 104px;
+  }
+
+  .team-list {
+    row-gap: 64px;
+    column-gap: var(--card-set-gap);
+  }
+
+  .team-list > .item {
+  
+    /* width: calc((100% - var(--card-set-gap)) / 2); */
+  }
+}
