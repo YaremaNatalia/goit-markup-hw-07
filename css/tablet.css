@@ -179,6 +179,10 @@
 
 /* -----------PORTFOLIO----------- */
 
+.portfolio > .container {
+  width: 768px;
+}
+
 .portfolio {
   padding-top: 64px;
   padding-bottom: 96px;
@@ -200,7 +204,7 @@
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: start;
   column-gap: var(--card-set-gap);
   row-gap: 72px;
 }

@@ -140,21 +140,25 @@
 
   /* -----------PORTFOLIO----------- */
 
-.portfolio {
-  padding-top: 96px;
-  padding-bottom: 120x;
-}
+  .portfolio > .container {
+    width: 1158px;
+  }
 
-.filter-list {
-  margin-bottom: 72px;
-}
+  .portfolio {
+    padding-top: 96px;
+    padding-bottom: 120x;
+  }
 
-.portfolio-list {
-  column-gap: var(--card-set-gap);
-  row-gap: calc(2 * var(--card-set-gap));
-}
+  .filter-list {
+    margin-bottom: 72px;
+  }
 
-.portfolio-list > .item {
-  flex-basis: calc((100% - 2 * var(--card-set-gap)) / 3);
-}
+  .portfolio-list {
+    column-gap: var(--card-set-gap);
+    row-gap: calc(2 * var(--card-set-gap));
+  }
+
+  .portfolio-list > .item {
+    flex-basis: calc((100% - 2 * var(--card-set-gap)) / 3);
+  }
 }
