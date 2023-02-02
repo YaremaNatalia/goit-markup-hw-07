@@ -12,4 +12,12 @@
   .team > .container {
     width: 294px;
   }
+
+   /* -----------MODAL WINDOW----------- */
+
+  .modal {
+  
+  width: 392px;
+  height: 586px;
+}
 }

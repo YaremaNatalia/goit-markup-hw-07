@@ -166,7 +166,7 @@ body {
 
 .header {
   max-height: 70px;
-  width: 100%;
+  width: 100vw;
   border-bottom: 1px solid var(--border-color);
 }
 
@@ -215,8 +215,8 @@ body {
   z-index: 1000;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   padding-top: 80px;
   padding-bottom: 40px;
   background-color: #ffffff;
@@ -270,6 +270,7 @@ body {
 }
 
 .mobile-contacts-link.tel {
+  display: block;
   font-weight: 600;
   font-size: 36px;
   line-height: 1.1;
@@ -290,8 +291,8 @@ body {
   gap: 56px;
 }
 .mobile-soc-item {
-  width: 40px;
-  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
 }
 .mobile-soc-link {
   display: flex;
@@ -715,9 +716,6 @@ body {
 }
 
 /* -----------PORTFOLIO----------- */
-.portfolio > .container {
-  width: 426px;
-}
 
 .portfolio {
   padding-top: 56px;
@@ -765,7 +763,7 @@ body {
 
 .portfolio-list > .item {
   display: block;
-  width: 396px;
+  width: 100%;
   border: 1px solid var(--border-color);
   background-color: var(--main-background-color);
 
@@ -866,8 +864,8 @@ body {
 
 .modal {
   position: absolute;
-  width: 392px;
-  min-height: 576px;
+  width: 90vw;
+  height: 100vh;
   top: 50%;
   left: 50%;
   padding-right: 16px;
