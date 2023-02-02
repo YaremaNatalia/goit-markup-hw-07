@@ -716,22 +716,23 @@ body {
 
 /* -----------PORTFOLIO----------- */
 .portfolio {
-  padding-top: 96px;
+  padding-top: 56px;
+  padding-bottom: 48px;
 }
 
 .filter-list {
   display: flex;
+  flex-wrap: wrap;
   gap: var(--card-set-gap);
-  margin: 0 auto;
-  margin-bottom: 72px;
-  justify-content: center;
-  width: 586px;
+  row-gap: 16px;
+  margin-bottom: 48px;
+  width: 268px;
 }
 
 .filter-list .btn {
   display: flex;
-  padding: 12px 22px;
-  height: 48px;
+  padding: 8px 16px;
+  height: 40px;
 
   line-height: 1.5;
   color: var(--logo-brand-color);
@@ -754,13 +755,13 @@ body {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  column-gap: var(--card-set-gap);
-  row-gap: calc(2 * var(--card-set-gap));
+  justify-content: center;
+  gap: 48px;
 }
 
 .portfolio-list > .item {
   display: block;
-  flex-basis: calc((100% - 2 * var(--card-set-gap)) / 3);
+  width: 396px;
   border: 1px solid var(--border-color);
   background-color: var(--main-background-color);
 
@@ -784,10 +785,17 @@ body {
 
 .portfolio-subtitle {
   margin-bottom: 8px;
+  text-align: start;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 .portfolio-type {
+  font-weight: 400;
+
   color: var(--second-text-color);
+  
 }
 
 .portfolio-img-wrapper {

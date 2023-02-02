@@ -137,4 +137,24 @@
     flex-wrap: nowrap;
     gap: 120px;
   }
+
+  /* -----------PORTFOLIO----------- */
+
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120x;
+}
+
+.filter-list {
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  column-gap: var(--card-set-gap);
+  row-gap: calc(2 * var(--card-set-gap));
+}
+
+.portfolio-list > .item {
+  flex-basis: calc((100% - 2 * var(--card-set-gap)) / 3);
+}
 }

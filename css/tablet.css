@@ -176,4 +176,37 @@
   padding: 24px;
   padding-top: 72px;
   }
+
+/* -----------PORTFOLIO----------- */
+
+.portfolio {
+  padding-top: 64px;
+  padding-bottom: 96px;
 }
+
+.filter-list {
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  margin-bottom: 64px;
+  justify-content: center;
+  width: 586px;
+}
+
+.filter-list .btn {
+  padding: 12px 22px;
+  height: 48px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: var(--card-set-gap);
+  row-gap: 72px;
+}
+
+.portfolio-list > .item {
+  flex-basis: calc((100% - var(--card-set-gap)) / 2);
+}
+} 
+
