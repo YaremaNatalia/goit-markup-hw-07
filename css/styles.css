@@ -217,7 +217,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  padding-top: 80px;
+  padding-top: 24px;
   padding-bottom: 40px;
   background-color: #ffffff;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -230,7 +230,12 @@ body {
   pointer-events: none;
 }
 
+.navigation-wrap {
+padding-top: 56px;
+}
+
 .mobile-menu-container {
+  position: relative;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -238,14 +243,15 @@ body {
   overflow: auto;
 }
 
-.navigation-wrap > .mobile-menu-close-btn {
+ .mobile-menu-close-btn {
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 24px;
   height: 24px;
-  top: 22px;
-  right: 20px;
+  top: 0;
+  right: 19px;
   border-radius: 50%;
   padding: 0;
   margin-left: auto;
@@ -253,6 +259,15 @@ body {
 
   background-color: var(--modal-close-btn-background-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
+
+  transition: background-color var(--transition-duration-func),
+    border-color var(--transition-duration-func);
+}
+
+.mobile-menu-close-btn:hover,
+.mobile-menu-close-btn:focus {
+  border-color: var(--hover-background-color);
+  background-color: var(--hover-background-color);
 }
 
 .mobile-menu-navigation-list {
