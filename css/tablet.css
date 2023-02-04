@@ -11,14 +11,14 @@
 
   .navigation-list {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
     gap: 40px;
     margin-right: auto;
   }
 
   .navigation-link {
     display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 
   .navigation-link.current {

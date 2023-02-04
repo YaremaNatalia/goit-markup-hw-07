@@ -23,6 +23,6 @@
 
   .modal {
     width: 392px;
-    height: 586px;
+    max-height: 586px;
   }
 }
