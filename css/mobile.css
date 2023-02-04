@@ -3,6 +3,12 @@
     max-width: 428px;
   }
 
+  /* ----------MOBILE MENU------------ */
+
+  .mobile-menu-soc-list {
+    gap: 56px;
+  }
+
   /* -----------TEAM----------- */
 
   .team.section {
@@ -13,11 +19,10 @@
     width: 294px;
   }
 
-   /* -----------MODAL WINDOW----------- */
+  /* -----------MODAL WINDOW----------- */
 
   .modal {
-  
-  width: 392px;
-  height: 586px;
-}
+    width: 392px;
+    height: 586px;
+  }
 }
