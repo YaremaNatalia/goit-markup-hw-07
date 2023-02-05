@@ -37,6 +37,12 @@
     letter-spacing: 0.02em;
   }
 
+  /* ----------MOBILE MENU------------ */
+ 
+  .mobile-menu-soc-list {
+    gap: 56px;
+  }
+
   /* -----------HERO----------- */
 
   .hero.section {

@@ -1,12 +1,18 @@
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .container {
     max-width: 428px;
   }
 
   /* ----------MOBILE MENU------------ */
- 
-  .mobile-menu-soc-list {
-    gap: 56px;
+  @media screen and (min-width: 480px) and (max-width: 767.98px) {
+    .mobile-menu-container {
+      max-width: 428px;
+    }
+    .mobile-menu-soc-list {
+      gap: 56px;
+    }
+
+
   }
 
   /* -----------TEAM----------- */
