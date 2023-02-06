@@ -100,6 +100,10 @@ body {
   color: var(--hover-link-color);
 }
 
+.current {
+  color: var(--hover-link-color);
+}
+
 .logo {
   display: flex;
   max-width: 115px;
@@ -208,6 +212,10 @@ body {
   background-color: transparent;
 }
 
+.mobile-menu-burger-icon {
+  stroke: var(--main-text-color);
+}
+
 /* ----------MOBILE MENU------------ */
 
 .mobile-menu {
@@ -215,8 +223,8 @@ body {
   z-index: 1000;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   padding-top: 24px;
   padding-bottom: 40px;
   background-color: #ffffff;
@@ -231,7 +239,7 @@ body {
 }
 
 .navigation-wrap {
-padding-top: 56px;
+  padding-top: 56px;
 }
 
 .mobile-menu-container {
@@ -243,7 +251,7 @@ padding-top: 56px;
   overflow: auto;
 }
 
- .mobile-menu-close-btn {
+.mobile-menu-close-btn {
   position: absolute;
   display: flex;
   align-items: center;
