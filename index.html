@@ -46,18 +46,20 @@
             </li>
           </ul>
         </nav>
-        <ul class="contacts-list list">
-          <li class="item">
-            <a class="contacts-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="item">
-            <a class="contacts-link link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
+        <div class="contacts-list-wrap">
+          <ul class="contacts-list list">
+            <li class="item">
+              <a class="contacts-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="item">
+              <a class="contacts-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </div>
         <button type="button" class="mobile-menu-button" data-menu-open>
           <svg class="mobile-menu-burger-icon" width="32" height="22">
             <use href="./images/icons.svg#icon-burger"></use>
@@ -66,8 +68,9 @@
       </div>
       <div class="mobile-menu is-hidden" data-menu>
         <div class="mobile-menu-container container">
-          <button
-              class="mobile-menu-close-btn"
+          <div class="navigation-wrap">
+            <button
+              class="mobile-menu-close-btn modal-close-btn"
               type="button"
               data-menu-close
             >
@@ -75,7 +78,6 @@
                 <use href="./images/icons.svg#icon-close"></use>
               </svg>
             </button>
-          <div class="navigation-wrap">
             <ul class="mobile-menu-navigation-list list">
               <li class="mobile-navigation-item">
                 <a

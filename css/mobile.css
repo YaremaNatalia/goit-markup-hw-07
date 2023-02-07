@@ -29,6 +29,12 @@
     width: 294px;
   }
 
+  /* -----------PORTFOLIO----------- */
+
+.portfolio > .container {
+  max-width: 428px;
+}
+
   /* -----------MODAL WINDOW----------- */
 
   .modal {

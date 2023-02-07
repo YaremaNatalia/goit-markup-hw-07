@@ -5,7 +5,6 @@
 
   /* ----------HEADER------------ */
 
-
   .navigation-logo {
     margin-right: 123px;
   }
@@ -40,12 +39,16 @@
     border-radius: 2px;
   }
 
+  .contacts-list-wrap {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 10px;
+  }
+
   .contacts-list {
     display: flex;
     flex-direction: column;
     gap: 4px;
-    padding-top: 24px;
-    padding-bottom: 10px;
   }
 
   .contacts-link {
@@ -74,7 +77,7 @@
       ),
       url(../images/hero-bg-tablet.jpg);
   }
-   @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
     .hero.section {
       max-width: 768px;
     }
@@ -190,9 +193,9 @@
 
   /* -----------PORTFOLIO----------- */
 
-  .portfolio > .container {
-    width: 768px;
-  }
+.portfolio > .container {
+  max-width: 768px;
+}
 
   .portfolio {
     padding-top: 64px;

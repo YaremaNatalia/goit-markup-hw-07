@@ -225,7 +225,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  padding-top: 24px;
+  padding-top: 0;
   padding-bottom: 40px;
   background-color: #ffffff;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -239,7 +239,7 @@ body {
 }
 
 .navigation-wrap {
-  padding-top: 56px;
+  padding-top: 80px;
 }
 
 .mobile-menu-container {
@@ -751,6 +751,9 @@ body {
 }
 
 /* -----------PORTFOLIO----------- */
+.portfolio > .container {
+  max-width: 396px;
+}
 
 .portfolio {
   padding-top: 56px;
@@ -798,7 +801,7 @@ body {
 
 .portfolio-list > .item {
   display: block;
-  width: 100%;
+  width: 396px;
   border: 1px solid var(--border-color);
   background-color: var(--main-background-color);
 

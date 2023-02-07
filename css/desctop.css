@@ -151,7 +151,7 @@
   /* -----------PORTFOLIO----------- */
 
   .portfolio > .container {
-    width: 1158px;
+    max-width: 1158px;
   }
 
   .portfolio {
