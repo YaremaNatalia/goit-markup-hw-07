@@ -20,11 +20,14 @@
   .navigation-link {
     padding-bottom: 28px;
   }
+  .contacts-list-wrap {
+    padding-top: 24px;
+    padding-bottom: 28px;
+  }
 
   .contacts-list {
     flex-direction: row;
     gap: 40px;
-    padding-bottom: 28px;
   }
 
   .contacts-list > .item {
@@ -38,7 +41,7 @@
   }
 
   /* ----------MOBILE MENU------------ */
- 
+
   .mobile-menu-soc-list {
     gap: 56px;
   }
